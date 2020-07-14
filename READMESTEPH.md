@@ -49,7 +49,8 @@ we're trying to communicate.
 ### Content as a List in a Text File
 
 A problem with our _content_ is that it doesn't explicitly state anywhere that
-it's a list.  In the example, we see a list of songs. But a browser doesn't know what a "list" is. 
+it's a list.  In the example, *you* see a list of songs. *we* see a list of
+songs. But a browser doesn't know what a "list" is. 
 
 We need to help browser **know**  what a list is. The secret is to add "notes"
 or "breadcrumbs" to the content that tell the browser that it has list items
@@ -66,7 +67,7 @@ We're going to create an HTML list together.
 
 1. Create a new file called `my_list.html`
 2. Copy the contents of `my_list.txt` and paste them into `my_list.html`
-3. Save the `my_list.html` file
+3. Use `command + s` to save the `my_list.html` file
 4. In the Learn IDE, click on the **terminal** window and type `httpserver`.
 5. Hit enter to run the command
 
@@ -82,8 +83,6 @@ When `httpserver` starts, you'll be given a web site address.
 `httpserver` says:
 
 `Your server is running at 67.205.152.27:59976`
-
-> **ASIDE**: For our example, our server is running at 67.205.152.27:59976 but keep in mind that yours could be different.
 
 Open up another browser tab, paste that web site address and add the file I wish
 to view after a `/`. We want to view `my_list.html`, so in my example, I'll be
@@ -130,9 +129,9 @@ is still running!). You should see something like the following:
 
 In this step we added some HTML _markup_:
 
-* The `<li>` is an HTML **list item** _opening tag_
-* The `</li>` is an HTML _closing tag_
-* We would call this pair of opening and closing tags a "`li` tag"
+* The `<li>` is an HTML **list item**  _opening tag_
+* The `</li>` `li` list item  _closing tag_
+* We would call this pair of opening and closing tags"an `li` tag"
 * The whole length of text of _opening markup_ plus "wrapped" content plus
   _closing markup_ (`<li>...content...</li>`) is called "an HTML element;" or,
   more exactly, an `li element`
@@ -141,7 +140,7 @@ Again, you don't need to memorize these terms yet, but we want to help you
 develop an intuition for how these words are used. You will be using these
 terms when speaking with other developers and HTML authors.
 
-It may not seem like we did much work, but the idea of a method for "marking up"
+It may not seem like we did much work, but idea of a method for "marking up"
 _content_ and linking it is the foundation of the web. It's what made Tim
 Berners-Lee's reputation. And **you** just experienced Sir Tim's great insight.
 **AWESOME**.
@@ -207,7 +206,7 @@ Here we return to a "bulleted" unordered list.
 
 > **ASIDE**: If you've been following along closely, you  might be wondering, if
 > we didn't have a `<ul>` tag around our `<li>` items earlier, how did the
-> browser know how to treat those `<li>` as if they were in a `<ul>`? When browsers
+> browser know how treat those `<li>` as if they were in a `<ul>`? When browsers
 > detect problematic HTML they guess! This can lead to some very strange results
 > when you make an error, but if you write _invalid_ HTML, they try to recover.
 > HTML validity will be discussed further soon!
@@ -279,7 +278,7 @@ tweak, and adjust your _source text_ until the _rendered text_ displayed in the
 browser is to your
 liking. 
 
-In upcoming lessons, we will learn additional tags which provide us more
+In upcoming lessons, we will learn additional tags which provide us an more
 ways to describe our content.  We might be starting with lists today, but soon
 we'll be on this in exciting ways!
 
